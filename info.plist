@@ -42,7 +42,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>yo</string>
+	<string>yubikey-oath</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -142,7 +142,11 @@ bash get_code.sh "{query}"</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+    <string>Obtain a TOTP code from a YubiKey
+
+Requirements: YubiKey Manager and Python 3
+Alfred command: yo
+More info: https://github.com/Ch00k/alfred-ykman-oath</string>
 	<key>uidata</key>
 	<dict>
 		<key>040E6BBD-6C5D-4E99-B602-45913E67114E</key>
@@ -167,6 +171,8 @@ bash get_code.sh "{query}"</string>
 			<integer>110</integer>
 		</dict>
 	</dict>
+    <key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Ch00k/alfred-ykman-oath</string>
 </dict>
