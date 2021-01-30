@@ -1,12 +1,12 @@
 # alfred-ykman-oath
 
-Alfred Workflow for obtaining TOTP codes from a yubikey.
+Alfred Workflow for obtaining TOTP codes from a YubiKey.
 
 The workflow uses `ykman oath` under the hood.
 
 ## Requirements
 
-`ykman` and Python 3. To install both execute
+YubiKey Manager and Python 3 are required. To install both with Homebrew execute
 
 ```
 $ brew install ykman python3

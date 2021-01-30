@@ -38,7 +38,7 @@
 	<key>createdby</key>
 	<string>Andrii Yurchuk</string>
 	<key>description</key>
-	<string>Obtain a TOTP code from Yubikey OATH application</string>
+	<string>Obtain a TOTP code from YubiKey OATH application</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -83,7 +83,7 @@ python3 list_codes.py "{query}"</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Get a TOTP code from Yubikey</string>
+				<string>Get a TOTP code from YubiKey</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
