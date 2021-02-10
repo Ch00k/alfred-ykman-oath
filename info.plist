@@ -73,7 +73,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>PATH=/usr/local/bin:$PATH
+				<string>PATH=/usr/local/bin:/opt/homebrew/bin:$PATH
 
 python3 list_codes.py "{query}"</string>
 				<key>scriptargtype</key>
@@ -104,7 +104,7 @@ python3 list_codes.py "{query}"</string>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>PATH=/usr/local/bin:$PATH
+				<string>PATH=/usr/local/bin:/opt/homebrew/bin:$PATH
 
 bash get_code.sh "{query}"</string>
 				<key>scriptargtype</key>
@@ -142,7 +142,7 @@ bash get_code.sh "{query}"</string>
 		</dict>
 	</array>
 	<key>readme</key>
-    <string>Obtain a TOTP code from a YubiKey
+	<string>Obtain a TOTP code from a YubiKey
 
 Requirements: YubiKey Manager and Python 3
 Alfred command: yo
@@ -159,9 +159,9 @@ More info: https://github.com/Ch00k/alfred-ykman-oath</string>
 		<key>995D2BA4-5863-487C-8374-30A06870C7E8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>95</integer>
+			<integer>110</integer>
 		</dict>
 		<key>C5ACC126-270B-459E-A7BC-5A83C350EBA6</key>
 		<dict>
@@ -171,8 +171,10 @@ More info: https://github.com/Ch00k/alfred-ykman-oath</string>
 			<integer>110</integer>
 		</dict>
 	</dict>
-    <key>version</key>
-	<string>0.0.1</string>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Ch00k/alfred-ykman-oath</string>
 </dict>
