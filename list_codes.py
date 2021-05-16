@@ -4,7 +4,7 @@ import sys
 
 
 def oath_list(filter_str):
-    res = subprocess.run(["ykman", "oath", "list"], capture_output=True)
+    res = subprocess.run(["ykman", "oath", "accounts", "list"], capture_output=True)
     stdout = res.stdout.decode()
 
     json_data = {"items": []}
