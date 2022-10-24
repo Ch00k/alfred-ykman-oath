@@ -8,6 +8,19 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>040E6BBD-6C5D-4E99-B602-45913E67114E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9526C259-003F-449C-8F5A-0913B7091859</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>995D2BA4-5863-487C-8374-30A06870C7E8</key>
 		<array>
 			<dict>
@@ -140,6 +153,21 @@ bash get_code.sh "{query}"</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Blow</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>9526C259-003F-449C-8F5A-0913B7091859</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Obtain a TOTP code from a YubiKey
@@ -152,27 +180,43 @@ More info: https://github.com/Ch00k/alfred-ykman-oath</string>
 		<key>040E6BBD-6C5D-4E99-B602-45913E67114E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>510</integer>
+			<real>455</real>
 			<key>ypos</key>
-			<integer>115</integer>
+			<real>110</real>
+		</dict>
+		<key>9526C259-003F-449C-8F5A-0913B7091859</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>110</real>
 		</dict>
 		<key>995D2BA4-5863-487C-8374-30A06870C7E8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>35</real>
 			<key>ypos</key>
-			<integer>110</integer>
+			<real>110</real>
 		</dict>
 		<key>C5ACC126-270B-459E-A7BC-5A83C350EBA6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>260</integer>
+			<real>255</real>
 			<key>ypos</key>
-			<integer>110</integer>
+			<real>110</real>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
+	<key>variables</key>
+	<dict>
+		<key>PASSWORD</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>PASSWORD</string>
+	</array>
 	<key>version</key>
 	<string>0.0.3</string>
 	<key>webaddress</key>
