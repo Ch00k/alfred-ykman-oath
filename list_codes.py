@@ -1,10 +1,16 @@
 import json
 import subprocess
 import sys
+import os
 
 
 def oath_list(filter_str):
-    res = subprocess.run(["ykman", "oath", "accounts", "list"], capture_output=True)
+    cmd = ["ykman", "oath", "accounts", "list"]
+    password = os.getenv("PASSWORD")
+    if password:
+        cmd = cmd + ["-p", password]
+
+    res = subprocess.run(cmd, capture_output=True)
     stdout = res.stdout.decode()
 
     json_data = {"items": []}
